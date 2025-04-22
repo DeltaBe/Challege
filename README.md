@@ -1,8 +1,6 @@
-# Análisis de Tiendas y Decisión sobre la Tienda a Eliminar
+# Análisis de Tiendas 
 
 Este proyecto realiza un análisis comparativo entre cuatro tiendas con el objetivo de determinar cuál debería ser eliminada basándose en varias métricas clave, como los **ingresos totales**, **categorías de productos más y menos vendidos**, **calificaciones promedio de los clientes**, **productos más y menos vendidos**, y **costos de envío promedio**. 
-
-El análisis se realiza utilizando **Python**, **pandas** y **matplotlib**, y la visualización de los datos se lleva a cabo con gráficos generados a partir de estos datos.
 
 ## Propósito
 
@@ -25,7 +23,7 @@ El análisis incluye los siguientes gráficos para comparar el desempeño de cad
 1. **Gráfico de torta** para mostrar el **ingreso total por tienda**.
 2. **Gráfico de barras agrupadas** para mostrar la **cantidad de productos vendidos por categoría**.
 3. **Gráfico de barras** para comparar las **calificaciones promedio de los clientes**.
-4. **Gráfico de dispersión** para analizar la relación entre el **precio** y el **costo de envío**.
+4. **Gráfico de barras** para analizar el **cosot promedio de envio por tienda**.
 
 ## Justificación de la Elección de la Tienda a Eliminar
 
@@ -36,16 +34,3 @@ Tras analizar los ingresos, ventas, calificaciones y costos de envío, se recomi
 - **Calificaciones Promedio Similares**: Aunque las calificaciones son similares en todas las tiendas, el bajo rendimiento de Tienda 4 en ventas hace que sea una opción para eliminar.
 - **Costo de Envío Bajo, pero Baja Rentabilidad**: A pesar de tener un bajo costo de envío, Tienda 4 no compensa con su bajo rendimiento en ventas.
 
-## Requisitos
-
-Para ejecutar el proyecto en tu máquina local, asegúrate de tener instalado Python y las siguientes librerías:
-
-- `pandas`
-- `matplotlib`
-
-Puedes instalar las librerías necesarias con:
-
-```bash
-pip install pandas matplotlib seaborn
-
-#en este caso no es necesario ya que se realizo junto con google colaboraty
